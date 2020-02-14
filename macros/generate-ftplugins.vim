@@ -380,6 +380,7 @@ function! s:wrap_oneline() abort
   \   'pov': ['/*', '*/'],
   \   'processing': ['/*', '*/'],
   \   'prolog': ['/*', '*/'],
+  \   'python': ['"""', '"""'],
   \   'rc': ['/*', '*/'],
   \   'rust': ['/*', '*/'],
   \   'scala': ['/*', '*/'],
@@ -412,6 +413,7 @@ function! s:wrap_multiline() abort
   \   'perl': {'left': '#', 'top': '#', 'bottom': '#', 'right': '#'},
   \   'ruby': {'left': '#', 'top': '#', 'bottom': '#', 'right': '#'},
   \   'swig': {'left': '/*', 'top': '*', 'bottom': '*', 'right': '*/'},
+  \   'python': {'left': '#', 'top': '*', 'bottom': '*', 'right': '#'},
   \}
 endfunction
 
